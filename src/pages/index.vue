@@ -83,8 +83,9 @@
           <img src="/src/assets/img/reshade.png" alt="">
         </card>
 
-        <card title="ShanaEncoder" icon="😁" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具">
-          <img src="/src/assets/img/shanaencoder.png" alt="">
+        <card title="ShanaEncoder" icon="" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具">
+          <!--          <img src="/src/assets/img/shanaencoder.png" alt="">-->
+          <i class="pi pi-github pt-3"></i>
         </card>
 
         <card title="Voukoder" icon="" url="https://www.voukoder.org" desc="PR、AE、Vegas等软件的编码导出插件">
