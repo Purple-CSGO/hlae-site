@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "noStrictGenericChecks": false,
+    "skipLibCheck": true, // 跳过 d.ts 类型检查
+    "lib": ["esnext", "dom"],
+    "baseUrl": "../../Gitee/csgo-toolbox/frontend",
+    "paths": {
+      "@/*": ["src/*"],
+      "@runtime": ["wailsjs/runtime/runtime"],
+      "@backend": ["wailsjs/go/backend/App"],
+      "@models": ["wailsjs/go/models"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "auto-imports.d.ts",
+    "vite-env.d.ts",
+    "wails/go/models.ts"
+  ],
+  "exclude": [
+    "../../Gitee/csgo-toolbox/frontend/node_modules"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

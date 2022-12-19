@@ -1,0 +1,43 @@
+{
+  "name": "csgo-toolbox",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "fix": "eslint --fix"
+  },
+  "dependencies": {
+    "@pinia/plugin-debounce": "^0.1.0",
+    "@types/node": "^18.7.6",
+    "primeicons": "^6.0.1",
+    "scrollreveal": "^4.0.9",
+    "throttle-debounce": "^5.0.0",
+    "vite-plugin-html": "^3.2.0",
+    "vue": "3.2.37",
+    "vue-clipboard3": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.17.10",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "postcss": "^8.4.16",
+    "postcss-import": "^14.1.0",
+    "sass": "^1.54.4",
+    "tailwindcss": "^3.1.8",
+    "ts-node": "^10.9.1",
+    "typescript": "4.7.4",
+    "unplugin-auto-import": "^0.11.1",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^2.5.10",
+    "vite-plugin-pages": "^0.25.0",
+    "vue-router": "^4.0.13",
+    "vue-tsc": "0.35.0"
+  }
+}
