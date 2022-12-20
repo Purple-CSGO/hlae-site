@@ -38,7 +38,7 @@
         <card title="问题与建议提交" icon="" url="https://github.com/advancedfx/advancedfx/issues" desc="tnnd 为什么不更新" :background="true">
           <i class="pi pi-question-circle pt-3"></i>
         </card>
-        <card title="旧版中文站" icon="" url="https://github.com/advancedfx/advancedfx/issues" desc="旧版论坛存档" :background="true">
+        <card title="旧版中文站" icon="" url="https://old.hlae.site" desc="旧版论坛存档" :background="true">
           <i class="pi pi-bookmark pt-3"></i>
         </card>
       </div>
@@ -83,7 +83,7 @@
           <img src="/src/assets/img/reshade.png" alt="">
         </card>
 
-        <card title="ShanaEncoder" icon="" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具">
+        <card title="ShanaEncoder" icon="" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具" :background="true">
           <!--          <img src="/src/assets/img/shanaencoder.png" alt="">-->
           <i class="pi pi-github pt-3"></i>
         </card>
