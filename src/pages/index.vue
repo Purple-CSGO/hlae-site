@@ -9,14 +9,18 @@
       </p>
 
       <div class="flex flex-row gap-4">
-        <button class="main-btn text-[#fff] bg-[#CA4940] hover:bg-[#B33B32]">
-          <img src="/src/assets/img/hlae.svg" alt="project" class="w-6">
-          官方网站
-        </button>
-        <button class="main-btn text-[#333] bg-gray-100 hover:bg-gray-200">
-          <i class="pi pi-github w-6"></i>
-          本项目
-        </button>
+        <a href="https://advancedfx.org">
+          <button class="main-btn text-[#fff] bg-[#CA4940] hover:bg-[#B33B32]">
+            <img src="/src/assets/img/hlae.svg" alt="project" class="w-6">
+            官方网站
+          </button>
+        </a>
+        <a href="https://github.com/Purple-CSGO/hlae-site">
+          <button class="main-btn text-[#333] bg-gray-100 hover:bg-gray-200">
+            <i class="pi pi-github w-6"></i>
+            本项目
+          </button>
+        </a>
       </div>
     </div>
 
@@ -55,15 +59,13 @@
           <img src="/src/assets/img/ffmpeg.webp" alt="">
         </card>
 
-        <card title="CSGO工具箱" icon="/csgo-toolbox.png" url="https://csgo-toolbox.upup.cool"
-              desc="一个为CSGO游戏的各个方面带来便利的工具集合"></card>
+        <card title="CSGO工具箱" icon="/csgo-toolbox.png" url="https://csgo-toolbox.upup.cool" desc="一个为CSGO游戏的各个方面带来便利的工具集合"></card>
 
         <card title="CSGO Demos Manager" icon="" url="https://csgo-demo-manager.com" desc="CSGO录像分析观看工具">
           <img src="/src/assets/img/csgo-demos-manager.png" alt="">
         </card>
 
-        <card title="HLAE Studio" icon="" url="https://github.com/One-Studio/HLAE-Studio"
-              desc="HLAE环境配置更新工具">
+        <card title="HLAE Studio" icon="" url="https://github.com/One-Studio/HLAE-Studio" desc="HLAE环境配置更新工具">
           <img src="/src/assets/img/hlae-studio.png" alt="" class="rounded-xl">
         </card>
 

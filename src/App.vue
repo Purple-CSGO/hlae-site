@@ -46,7 +46,7 @@ onUnmounted(() => {
 
 nav {
     @apply sticky top-0 w-full h-20 border-b
-    bg-white bg-opacity-70 backdrop-blur-2xl z-30 transition duration-300 ease-in-out
+    bg-white bg-opacity-70 backdrop-blur-2xl z-30 transition duration-200 ease-in-out
     flex justify-center items-center
     font-bold text-xl tracking-wider text-[#3a3a3a];
 }
