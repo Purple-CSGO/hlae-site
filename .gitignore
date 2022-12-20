@@ -6,3 +6,6 @@ dist/
 .vscode/
 .idea/
 .fleet/
+
+# System
+**.DS_Store
