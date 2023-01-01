@@ -1,6 +1,6 @@
 # HLAE-SITE
 
-HLAE中文站 —— CS视频制作导航与资源集合站。
+HLAE中文站 —— CS视频制作相关导航与资源集合的门户网站。
 
 ## 开发
 
@@ -23,6 +23,8 @@ pnpm i
 ```bash
 pnpm dev
 ```
+
+图标库 https://primefaces.org/primevue/icons
 
 ### 参与项目
 

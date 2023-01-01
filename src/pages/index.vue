@@ -32,6 +32,7 @@
         <card title="官方Discord" url="https://discord.gg/NGp8qhN" desc="和开发者近距离交流" :background="true">
           <i class="pi pi-discord pt-3" />
         </card>
+
         <card title="付费CSGO集锦制作文档" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
           <i class="pi pi-video pt-3" />
         </card>
@@ -40,6 +41,16 @@
         </card>
         <card title="旧版中文站" url="https://old.hlae.site" desc="旧版论坛存档" :background="true">
           <i class="pi pi-bookmark pt-3" />
+        </card>
+
+        <card title="HUD生成器" url="https://hud.hlae.site/" desc="击杀信息和准星生成工具" :background="true">
+          <i class="pi pi-wrench pt-3" />
+        </card>
+        <card title="比赛录像分享" url="https://share.hlae.site/%E5%BD%95%E5%83%8F" desc="比赛录像搬运、加速下载" :background="true">
+          <i class="pi pi-video pt-3" />
+        </card>
+        <card title="HLTV" url="https://hltv.org/" desc="CSGO新闻、数据、录像" :background="true">
+          <i class="pi pi-video pt-3" />
         </card>
       </div>
     </section>
@@ -105,6 +116,11 @@
         <card title="ShanaEncoder" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具" :background="true"
               download_cdn="" download_original="https://shana.pe.kr/shanaencoder_download">
           <i class="pi pi-github pt-3"></i>
+        </card>
+
+        <card title="SRadar" url="https://sdr.hlae.cn" desc="Shekl制作的简易雷达" :background="true"
+              download_cdn="https://api.upup.cool/get/sradar" download_original="https://github.com/zuoshipinSHEKL/SRadar/releases/latest">
+          <i class="pi pi-map pt-3"></i>
         </card>
       </div>
     </section>
