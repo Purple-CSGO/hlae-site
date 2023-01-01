@@ -5,7 +5,7 @@
 <!--      <img src="/src/assets/img/hlae.png" alt="project" class="w-72 absolute top-8 opacity-5 blur-xl z-0 infini">-->
 
       <p class="py-8 text-[#666] text-xl tracking-widest">
-        <span class="font-bold text-orange-600">CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]">HLAE</span>的中文网站
+        <span class="font-bold text-orange-600">CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]">HLAE</span>的中文门户网站
       </p>
 
       <div class="flex flex-row gap-4">
