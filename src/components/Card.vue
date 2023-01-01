@@ -1,11 +1,20 @@
 <template>
   <div class="card">
-    <img class="icon" v-if="props.icon" src="/src/assets/img/csgo-toolbox.png" alt="" />
-    <a class="icon-diy" :class="{'bg-[#dfdfdf] hover:bg-[#e4e4e4]': background}" v-else :href="url">
+    <a class="icon-diy" :class="{'bg-[#dfdfdf] hover:bg-[#e4e4e4]': background}" :href="url" target="_blank">
       <slot />
     </a>
-    <p class="title" v-if="props.title" ><a :href="url">{{props.title}}</a></p>
-    <p class="description text">{{props.desc}}</p>
+
+    <div class="flex flex-wrap gap-2 py-2">
+      <p class="title" v-if="props.title" ><a :href="url" target="_blank">{{props.title}}</a></p>
+      <tag v-if="version" :content="version" />
+    </div>
+
+    <p class="description">{{props.desc}}</p>
+
+    <div class="flex flex-row gap-3 mt-3">
+      <a v-if="download_cdn" :href="download_cdn" target="_blank" class="download-btn bg-[#CA4940] hover:bg-[#B33B32] text-white">加速下载</a>
+      <a v-if="download_original" :href="download_original" target="_blank" class="download-btn bg-[#dedede] hover:bg-[#ccc] text-[#444]">原始下载</a>
+    </div>
   </div>
 </template>
 
@@ -13,14 +22,16 @@
 // Props
 const props = defineProps({
   title: String,
-  icon: String,
   url: String,
   desc: String,
   background: Boolean,
+  version: String,
+  download_cdn: String,
+  download_original: String,
 });
 </script>
 
-<style lang="scss" scoped >
+<style lang="scss" scoped>
 .card {
   @apply px-6 py-6 rounded-xl bg-[#f6f6f6] hover:bg-[#f3f3f3] bg-opacity-90 transition duration-200;
   @apply flex flex-col h-full;
@@ -34,11 +45,15 @@ const props = defineProps({
   }
 
   .title {
-    @apply py-2 max-w-fit font-bold text-lg text-[#222] underline-offset-4 hover:underline transition duration-200 cursor-pointer;
+    @apply max-w-fit font-bold text-lg text-[#222] underline-offset-4 hover:underline transition duration-200 cursor-pointer;
   }
 
   .description {
-    @apply text-[#888];
+    @apply text-[#888] flex-grow;
+  }
+
+  .download-btn {
+    @apply px-3 py-1.5 rounded-lg active:scale-95 transition;
   }
 }
 </style>

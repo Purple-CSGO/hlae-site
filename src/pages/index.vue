@@ -5,21 +5,17 @@
 <!--      <img src="/src/assets/img/hlae.png" alt="project" class="w-72 absolute top-8 opacity-5 blur-xl z-0 infini">-->
 
       <p class="py-8 text-[#666] text-xl tracking-widest">
-        <span class="font-bold text-orange-600" >CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]" >HLAE</span>的中文网站
+        <span class="font-bold text-orange-600">CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]">HLAE</span>的中文网站
       </p>
 
       <div class="flex flex-row gap-4">
-        <a href="https://advancedfx.org">
-          <button class="main-btn text-[#fff] bg-[#CA4940] hover:bg-[#B33B32]">
-            <img src="/src/assets/img/hlae.svg" alt="project" class="w-6">
-            官方网站
-          </button>
+        <a href="https://advancedfx.org" target="_blank" class="main-btn text-[#fff] bg-[#CA4940] hover:bg-[#B33B32]">
+          <img src="/src/assets/img/hlae.svg" alt="project" class="w-6">
+          官方网站
         </a>
-        <a href="https://github.com/Purple-CSGO/hlae-site">
-          <button class="main-btn text-[#333] bg-gray-100 hover:bg-gray-200">
-            <i class="pi pi-github w-6"></i>
-            本项目
-          </button>
+        <a href="https://github.com/Purple-CSGO/hlae-site" target="_blank" class="main-btn text-[#333] bg-gray-100 hover:bg-gray-200">
+          <i class="pi pi-github w-6" />
+          本项目
         </a>
       </div>
     </div>
@@ -27,23 +23,23 @@
     <section>
       <h2>传送门</h2>
       <div class="cards">
-        <card title="中文论坛" icon="" url="https://forum.hlae.site" desc="HLAE中文交流社区" :background="true">
+        <card title="中文论坛"  url="https://forum.hlae.site" desc="HLAE中文交流社区" :background="true">
           <i class="pi pi-comments pt-3"></i>
         </card>
-        <card title="官方Wiki" icon="" url="https://github.com/advancedfx/advancedfx/wiki" desc="权威，但是英文 orz" :background="true">
-          <i class="pi pi-book pt-3"></i>
+        <card title="官方Wiki"  url="https://github.com/advancedfx/advancedfx/wiki" desc="权威，但是英文 orz" :background="true">
+          <i class="pi pi-book pt-3" />
         </card>
-        <card title="官方Discord" icon="" url="https://discord.gg/NGp8qhN" desc="和开发者近距离交流" :background="true">
-          <i class="pi pi-discord pt-3"></i>
+        <card title="官方Discord" url="https://discord.gg/NGp8qhN" desc="和开发者近距离交流" :background="true">
+          <i class="pi pi-discord pt-3" />
         </card>
-        <card title="付费CSGO集锦制作文档" icon="" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
-          <i class="pi pi-video pt-3"></i>
+        <card title="付费CSGO集锦制作文档" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
+          <i class="pi pi-video pt-3" />
         </card>
-        <card title="问题与建议提交" icon="" url="https://github.com/advancedfx/advancedfx/issues" desc="tnnd 为什么不更新" :background="true">
-          <i class="pi pi-question-circle pt-3"></i>
+        <card title="问题与建议提交" url="https://github.com/advancedfx/advancedfx/issues" desc="tnnd 为什么不更新" :background="true">
+          <i class="pi pi-question-circle pt-3" />
         </card>
-        <card title="旧版中文站" icon="" url="https://old.hlae.site" desc="旧版论坛存档" :background="true">
-          <i class="pi pi-bookmark pt-3"></i>
+        <card title="旧版中文站" url="https://old.hlae.site" desc="旧版论坛存档" :background="true">
+          <i class="pi pi-bookmark pt-3" />
         </card>
       </div>
     </section>
@@ -51,47 +47,64 @@
     <section>
       <h2>资源下载</h2>
       <div class="cards">
-        <card title="HLAE" icon="" url="https://github.com/advancedfx/advancedfx" desc="起源游戏影片制作工具">
-          <img src="/src/assets/img/hlae.png" alt="">
+        <card title="HLAE" url="https://github.com/advancedfx/advancedfx" desc="起源游戏影片制作工具"
+              download_cdn="https://api.upup.cool/get/hlae" download_original="https://github.com/advancedfx/advancedfx/releases/latest">
+          <img src="/src/assets/img/hlae.png" alt="hlae">
         </card>
 
-        <card title="FFmpeg" icon="" url="https://ffmpeg.org" desc="免费开源的全能媒体转码工具" :background="false">
-          <img src="/src/assets/img/ffmpeg.webp" alt="">
+        <card title="FFmpeg" url="https://ffmpeg.org" desc="免费开源的全能媒体转码工具" :background="false"
+              download_cdn="https://api.upup.cool/get/ffmpeg" download_original="https://github.com/GyanD/codexffmpeg/releases/latest">
+          <img src="/src/assets/img/ffmpeg.webp" alt="ffmpeg">
         </card>
 
-        <card title="CSGO工具箱" icon="/csgo-toolbox.png" url="https://csgo-toolbox.upup.cool" desc="一个为CSGO游戏的各个方面带来便利的工具集合"></card>
+        <card title="CSGO工具箱" url="https://csgo-toolbox.upup.cool" desc="一个为CSGO游戏的各个方面带来便利的工具集合"
+              download_cdn="https://api.upup.cool/get/csgo-toolbox" download_original="https://github.com/One-Studio/CSGO-Toolbox/releases/latest">
+          <img src="/src/assets/img/csgo-toolbox.png" alt="csgo-toolbox" class="rounded-xl">
+        </card>
 
-        <card title="CSGO Demos Manager" icon="" url="https://csgo-demo-manager.com" desc="CSGO录像分析观看工具">
+        <card title="CSGO Demos Manager" url="https://csgo-demos-manager.com" desc="CSGO录像分析观看工具"
+              download_cdn="https://api.upup.cool/get/csdm" download_original="https://github.com/akiver/CSGO-Demos-Manager/releases/latest">
           <img src="/src/assets/img/csgo-demos-manager.png" alt="">
         </card>
 
-        <card title="HLAE Studio" icon="" url="https://github.com/One-Studio/HLAE-Studio" desc="HLAE环境配置更新工具">
+        <card title="HLAE Studio" url="https://github.com/One-Studio/HLAE-Studio" desc="HLAE环境配置更新工具"
+              download_cdn="https://api.upup.cool/get/hlae-studio" download_original="https://github.com/One-Studio/HLAE-Studio/releases/latest">
           <img src="/src/assets/img/hlae-studio.png" alt="" class="rounded-xl">
         </card>
 
-        <card title="CFG预设" icon="" url="https://config.upup.cool" desc="适用于CSGO各场景的Config预设" :background="true">
+        <card title="CFG预设" url="https://config.upup.cool" desc="适用于CSGO各场景的Config预设" :background="true"
+              download_cdn="https://api.upup.cool/get/csgo-cfg" download_original="https://github.com/Purple-CSGO/CSGO-Config-Presets/releases/latest">
           <i class="pi pi-github pt-3"></i>
         </card>
 
-        <card title="nskinz" icon="" url="https://github.com/advancedfx/nskinz" desc="CSGO皮肤修改替换插件 advancedfx维护版本" :background="true">
+        <card title="nskinz" url="https://github.com/advancedfx/nskinz" desc="CSGO皮肤修改替换插件 advancedfx维护版本" :background="true"
+              download_cdn="https://api.upup.cool/repo/advancedfx/nSkinz/&&&&.zip" download_original="https://github.com/advancedfx/nSkinz/releases/latest">
           <i class="pi pi-github pt-3"></i>
         </card>
 
-        <card title="MIGI" icon="" url="https://zoolsmith.github.io/MIGI3" desc="CSGO资源修改工具">
+        <card title="MIGI" url="https://zoolsmith.github.io/MIGI3" desc="CSGO资源修改工具"
+              download_cdn="https://cdn.upup.cool/https://github.com/ZooLSmith/MIGI3/blob/main/migi.exe" download_original="https://github.com/ZooLSmith/MIGI3/blob/main/migi.exe">
           <img src="/src/assets/img/migi.png" alt="">
         </card>
 
-        <card title="ReShade" icon="" url="https://reshade.me" desc="重塑你的游戏画面">
+        <card title="Voukoder" url="https://www.voukoder.org" desc="PR、AE、Vegas等软件的编码导出插件"
+              download_cdn="" download_original="https://www.voukoder.org/forum/thread/783-downloads-instructions/">
+          <img src="/src/assets/img/voukoder.png" alt="" class="rounded-xl">
+        </card>
+
+        <card title="ReShade_advancedfx" url="https://github.com/advancedfx/ReShade_advancedfx" desc="连接HLAE录制的ReShade插件"
+              download_cdn="https://api.upup.cool/get/reshade-afx" download_original="https://github.com/advancedfx/ReShade_advancedfx/releases/latest">
           <img src="/src/assets/img/reshade.png" alt="">
         </card>
 
-        <card title="ShanaEncoder" icon="" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具" :background="true">
-          <!--          <img src="/src/assets/img/shanaencoder.png" alt="">-->
-          <i class="pi pi-github pt-3"></i>
+        <card title="ReShade" url="https://reshade.me" desc="重塑你的游戏画面"
+              download_cdn="" download_original="https://reshade.me">
+          <img src="/src/assets/img/reshade.png" alt="">
         </card>
 
-        <card title="Voukoder" icon="" url="https://www.voukoder.org" desc="PR、AE、Vegas等软件的编码导出插件">
-          <img src="/src/assets/img/voukoder.png" alt="" class="rounded-xl">
+        <card title="ShanaEncoder" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具" :background="true"
+              download_cdn="" download_original="https://shana.pe.kr/shanaencoder_download">
+          <i class="pi pi-github pt-3"></i>
         </card>
       </div>
     </section>
@@ -100,6 +113,14 @@
 </template>
 
 <script setup lang="ts">
+import GetResourceData from "../composables/resource-data";
+
+let data;
+
+onMounted(async()=>{
+  data = await GetResourceData();
+  console.log(data)
+})
 </script>
 
 <style lang="scss" scoped>
@@ -124,7 +145,7 @@
   }
 
   .main-btn {
-    @apply pl-4 pr-5 py-2 flex flex-row justify-center items-center rounded-full font-semibold transition duration-200 active:scale-95;
+    @apply pl-3 pr-4 py-2 flex flex-row justify-center items-center rounded-full font-semibold transition duration-200 active:scale-95;
   }
 
   .cards {

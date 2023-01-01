@@ -11,12 +11,13 @@
     </router-view>
 
     <footer>
-      <span>Presented by <a href="https://github.com/Purple-CSGO" class="author">Purple-CSGO</a> ©2022</span>
+      <span>Presented by <a href="https://github.com/Purple-CSGO" class="author">Purple-CSGO</a> ©2023</span>
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
+// noinspection TypeScriptCheckImport
 import { throttle } from 'throttle-debounce';
 
 const showNav = ref(false);
