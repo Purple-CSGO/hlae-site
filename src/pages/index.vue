@@ -4,7 +4,7 @@
       <h1>HLAE中文站</h1>
 <!--      <img src="/src/assets/img/hlae.png" alt="project" class="w-72 absolute top-8 opacity-5 blur-xl z-0 infini">-->
 
-      <p class="py-8 text-[#666] text-xl tracking-widest">
+      <p class="py-8 text-[#666] dark:text-[#bbb] text-xl tracking-widest">
         <span class="font-bold text-orange-600">CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]">HLAE</span>的中文门户网站
       </p>
 
@@ -13,7 +13,7 @@
           <img src="/src/assets/img/hlae.svg" alt="project" class="w-6">
           官方网站
         </a>
-        <a href="https://github.com/Purple-CSGO/hlae-site" target="_blank" class="main-btn text-[#333] bg-gray-100 hover:bg-gray-200">
+        <a href="https://github.com/Purple-CSGO/hlae-site" target="_blank" class="main-btn text-[#333] dark:text-[#222] bg-gray-100 dark:bg-gray-300 hover:bg-gray-200">
           <i class="pi pi-github w-6" />
           本项目
         </a>
@@ -145,11 +145,11 @@ onMounted(async()=>{
   width: min(1000px, 100%);
 
   h1 {
-    @apply text-5xl font-semibold text-[#333] sticky;
+    @apply text-5xl font-semibold text-[#333] dark:text-[#ddd] sticky;
   }
 
   h2 {
-    @apply text-3xl font-semibold text-[#444] mb-8;
+    @apply text-3xl font-semibold text-[#444] dark:text-[#ccc] mb-8;
   }
 
   section {

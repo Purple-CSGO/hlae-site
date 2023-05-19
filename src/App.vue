@@ -41,22 +41,29 @@ onUnmounted(() => {
 
 <style lang="scss">
 :root {
-  background: #fff;
+  background: transparent;
   font-family: "HarmonyOS Sans SC", "HarmonyOS Sans", "Sarasa Gothic SC", "PingFang SC", Helvetica, Helvetica Neue, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#window {
+  @apply bg-white dark:bg-[#161413];
 }
 
 nav {
     @apply sticky top-0 w-full h-20 border-b
     bg-white bg-opacity-70 backdrop-blur-2xl z-30 transition duration-200 ease-in-out
     flex justify-center items-center
-    font-bold text-xl tracking-wider text-[#3a3a3a];
+    font-bold text-xl tracking-wider text-[#3a3a3a]
+    dark:bg-black dark:bg-opacity-70 dark:text-[#eaeaea] dark:border-[#131211];
 }
 
 footer {
-  @apply w-full h-28 mt-32 bg-gray-50 text-[#888] flex flex-col items-center justify-center gap-4 text-center tracking-widest transition;
+  @apply w-full h-28 mt-32 bg-gray-50 text-[#888] flex flex-col items-center justify-center gap-4 text-center tracking-widest transition
+         dark:text-[#aaa] dark:bg-[#262423];
 
   .author {
-    @apply text-[#555] hover:text-[#333] font-bold;
+    @apply text-[#555] hover:text-[#333] font-bold
+           dark:text-[#eee] dark:hover:text-[#fff];
   }
 }
 </style>
