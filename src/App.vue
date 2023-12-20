@@ -10,7 +10,6 @@
       </keep-alive>
     </router-view>
 
-皖公网安备34012302001231
     <footer>
       <span>Presented by <a href="https://github.com/Purple-CSGO" class="author">Purple-CSGO</a> ©2023</span>
       <a href="https://beian.mps.gov.cn/#/query/webSearch?code=34012302000653" rel="noreferrer"
