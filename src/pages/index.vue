@@ -2,7 +2,7 @@
   <div class="app">
     <div class="flex flex-col items-center text-center">
       <h1>HLAE中文站</h1>
-<!--      <img src="/src/assets/img/hlae.png" alt="project" class="w-72 absolute top-8 opacity-5 blur-xl z-0 infini">-->
+<!--      <img src="/src/assets/img/hlae.png" alt="project" class="absolute z-0 w-72 top-8 opacity-5 blur-xl infini">-->
 
       <p class="py-8 text-[#666] dark:text-[#bbb] text-xl tracking-widest">
         <span class="font-bold text-orange-600">CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]">HLAE</span>的中文门户网站
@@ -14,7 +14,7 @@
           官方网站
         </a>
         <a href="https://github.com/Purple-CSGO/hlae-site" target="_blank" class="main-btn text-[#333] dark:text-[#222] bg-gray-100 dark:bg-gray-300 hover:bg-gray-200">
-          <i class="pi pi-github w-6" />
+          <i class="w-6 pi pi-github" />
           本项目
         </a>
       </div>
@@ -24,33 +24,33 @@
       <h2>传送门</h2>
       <div class="cards">
         <card title="中文论坛"  url="https://forum.hlae.site" desc="HLAE中文交流社区" :background="true">
-          <i class="pi pi-comments pt-3"></i>
+          <i class="pt-3 pi pi-comments"></i>
         </card>
         <card title="官方Wiki"  url="https://github.com/advancedfx/advancedfx/wiki" desc="权威，但是英文 orz" :background="true">
-          <i class="pi pi-book pt-3" />
+          <i class="pt-3 pi pi-book" />
         </card>
         <card title="官方Discord" url="https://discord.gg/NGp8qhN" desc="和开发者近距离交流" :background="true">
-          <i class="pi pi-discord pt-3" />
+          <i class="pt-3 pi pi-discord" />
         </card>
 
         <card title="付费CSGO集锦制作文档" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
-          <i class="pi pi-video pt-3" />
+          <i class="pt-3 pi pi-video" />
         </card>
         <card title="问题与建议提交" url="https://github.com/advancedfx/advancedfx/issues" desc="tnnd 为什么不更新" :background="true">
-          <i class="pi pi-question-circle pt-3" />
+          <i class="pt-3 pi pi-question-circle" />
         </card>
         <card title="旧版中文站" url="https://old.hlae.site" desc="旧版论坛存档" :background="true">
-          <i class="pi pi-bookmark pt-3" />
+          <i class="pt-3 pi pi-bookmark" />
         </card>
 
         <card title="HUD生成器" url="https://hud.hlae.site/" desc="击杀信息和准星生成工具" :background="true">
-          <i class="pi pi-wrench pt-3" />
+          <i class="pt-3 pi pi-wrench" />
         </card>
         <card title="比赛录像分享" url="https://share.hlae.site/%E5%BD%95%E5%83%8F" desc="比赛录像搬运、加速下载" :background="true">
-          <i class="pi pi-video pt-3" />
+          <i class="pt-3 pi pi-video" />
         </card>
         <card title="HLTV" url="https://hltv.org/" desc="CSGO新闻、数据、录像" :background="true">
-          <i class="pi pi-video pt-3" />
+          <i class="pt-3 pi pi-video" />
         </card>
       </div>
     </section>
@@ -85,12 +85,12 @@
 
         <card title="CFG预设" url="https://config.upup.cool" desc="适用于CSGO各场景的Config预设" :background="true"
               download_cdn="https://api.upup.cool/get/csgo-cfg" download_original="https://github.com/Purple-CSGO/CSGO-Config-Presets/releases/latest">
-          <i class="pi pi-github pt-3"></i>
+          <i class="pt-3 pi pi-github"></i>
         </card>
 
         <card title="nskinz" url="https://github.com/advancedfx/nskinz" desc="CSGO皮肤修改替换插件 advancedfx维护版本" :background="true"
               download_cdn="https://api.upup.cool/repo/advancedfx/nSkinz/&&&&.zip" download_original="https://github.com/advancedfx/nSkinz/releases/latest">
-          <i class="pi pi-github pt-3"></i>
+          <i class="pt-3 pi pi-github"></i>
         </card>
 
         <card title="MIGI" url="https://zoolsmith.github.io/MIGI3" desc="CSGO资源修改工具"
@@ -115,12 +115,12 @@
 
         <card title="ShanaEncoder" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具" :background="true"
               download_cdn="" download_original="https://shana.pe.kr/shanaencoder_download">
-          <i class="pi pi-github pt-3"></i>
+          <i class="pt-3 pi pi-github"></i>
         </card>
 
         <card title="SRadar" url="https://sdr.hlae.cn" desc="Shekl制作的简易雷达" :background="true"
               download_cdn="https://api.upup.cool/get/sradar" download_original="https://github.com/zuoshipinSHEKL/SRadar/releases/latest">
-          <i class="pi pi-map pt-3"></i>
+          <i class="pt-3 pi pi-map"></i>
         </card>
       </div>
     </section>
@@ -165,7 +165,7 @@ onMounted(async()=>{
   }
 
   .cards {
-    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center justify-center gap-8 w-full;
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center justify-center gap-6 w-full;
 
     card {
       @apply h-full;
