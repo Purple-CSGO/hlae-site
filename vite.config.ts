@@ -1,11 +1,14 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
-import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
+import AutoImport from "unplugin-auto-import/vite";
+import Components from "unplugin-vue-components/vite";
+
+// @ts-ignore
+import { resolve } from "path";
 
 // 自动路由
-import Pages from 'vite-plugin-pages'
+import Pages from "vite-plugin-pages";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,19 +17,21 @@ export default defineConfig({
     Pages(), // Auto Routing '/pages'
     AutoImport({
       dts: true, // TS support
-      imports: ['vue', 'vue-router'],
+      imports: ["vue", "vue-router"],
       resolvers: [],
-      dirs: [
-        'src/composables'
-      ],
+      dirs: ["src/composables"],
       eslintrc: {
-        enabled: false
-      }
+        enabled: false,
+      },
     }),
     Components({
       dts: true, // TS support
     }),
   ],
   resolve: {
-  }
-})
+    alias: {
+      // @ts-ignore
+      "@": resolve(__dirname, "src"), // 路径别名
+    },
+  },
+});

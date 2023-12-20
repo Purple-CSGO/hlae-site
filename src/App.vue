@@ -14,7 +14,7 @@
     <footer>
       <span>Presented by <a href="https://github.com/Purple-CSGO" class="author">Purple-CSGO</a> ©2023</span>
       <a href="https://beian.mps.gov.cn/#/query/webSearch?code=34012302000653" rel="noreferrer"
-        target="_blank" class="beian"><img src="src/assets/img/beian.png" alt="beian"/>皖公网安备34012302000653</a>
+        target="_blank" class="beian"><img src="@/assets/img/beian.png" alt="beian"/>皖公网安备34012302000653</a>
     </footer>
   </div>
 </template>

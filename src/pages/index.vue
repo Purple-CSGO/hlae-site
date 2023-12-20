@@ -2,7 +2,7 @@
   <div class="app">
     <div class="flex flex-col items-center text-center">
       <h1>HLAE中文站</h1>
-<!--      <img src="/src/assets/img/hlae.png" alt="project" class="absolute z-0 w-72 top-8 opacity-5 blur-xl infini">-->
+<!--      <img src="@/assets/img/hlae.png" alt="project" class="absolute z-0 w-72 top-8 opacity-5 blur-xl infini">-->
 
       <p class="py-8 text-[#666] dark:text-[#bbb] text-xl tracking-widest">
         <span class="font-bold text-orange-600">CSGO</span>等起源引擎游戏的影片制作工具<span class="font-bold text-[#CA4940]">HLAE</span>的中文门户网站
@@ -10,7 +10,7 @@
 
       <div class="flex flex-row gap-4">
         <a href="https://advancedfx.org" target="_blank" class="main-btn text-[#fff] bg-[#CA4940] hover:bg-[#B33B32]">
-          <img src="/src/assets/img/hlae.svg" alt="project" class="w-6">
+          <img src="@/assets/img/hlae.svg" alt="project" class="w-6">
           官方网站
         </a>
         <a href="https://github.com/Purple-CSGO/hlae-site" target="_blank" class="main-btn text-[#333] dark:text-[#222] bg-gray-100 dark:bg-gray-300 hover:bg-gray-200">
@@ -60,27 +60,27 @@
       <div class="cards">
         <card title="HLAE" url="https://github.com/advancedfx/advancedfx" desc="起源游戏影片制作工具"
               download_cdn="https://api.upup.cool/get/hlae" download_original="https://github.com/advancedfx/advancedfx/releases/latest">
-          <img src="/src/assets/img/hlae.png" alt="hlae">
+          <img src="@/assets/img/hlae.png" alt="hlae">
         </card>
 
         <card title="FFmpeg" url="https://ffmpeg.org" desc="免费开源的全能媒体转码工具" :background="false"
               download_cdn="https://api.upup.cool/get/ffmpeg" download_original="https://github.com/GyanD/codexffmpeg/releases/latest">
-          <img src="/src/assets/img/ffmpeg.webp" alt="ffmpeg">
+          <img src="@/assets/img/ffmpeg.webp" alt="ffmpeg">
         </card>
 
         <card title="CSGO工具箱" url="https://csgo-toolbox.upup.cool" desc="一个为CSGO游戏的各个方面带来便利的工具集合"
               download_cdn="https://api.upup.cool/get/csgo-toolbox" download_original="https://github.com/One-Studio/CSGO-Toolbox/releases/latest">
-          <img src="/src/assets/img/csgo-toolbox.png" alt="csgo-toolbox" class="rounded-xl">
+          <img src="@/assets/img/csgo-toolbox.png" alt="csgo-toolbox" class="rounded-xl">
         </card>
 
         <card title="CS Demo Manager" url="https://cs-demo-manager.com" desc="CS录像分析观看工具" :background="true"
               download_cdn="https://api.upup.cool/get/csdm" download_original="https://github.com/akiver/CS-Demo-Manager/releases/latest">
-          <img src="/src/assets/img/csdm.svg" alt="" class="p-2">
+          <img src="@/assets/img/csdm.svg" alt="" class="p-2">
         </card>
 
         <card title="HLAE Studio" url="https://github.com/One-Studio/HLAE-Studio" desc="HLAE环境配置更新工具"
               download_cdn="https://api.upup.cool/get/hlae-studio" download_original="https://github.com/One-Studio/HLAE-Studio/releases/latest">
-          <img src="/src/assets/img/hlae-studio.png" alt="" class="rounded-xl">
+          <img src="@/assets/img/hlae-studio.png" alt="" class="rounded-xl">
         </card>
 
         <card title="CFG预设" url="https://config.upup.cool" desc="适用于CSGO各场景的Config预设" :background="true"
@@ -100,22 +100,22 @@
 
         <card title="MIGI" url="https://zoolsmith.github.io/MIGI3" desc="CSGO资源修改工具"
               download_cdn="https://cdn.upup.cool/https://github.com/ZooLSmith/MIGI3/blob/main/migi.exe" download_original="https://github.com/ZooLSmith/MIGI3/blob/main/migi.exe">
-          <img src="/src/assets/img/migi.png" alt="">
+          <img src="@/assets/img/migi.png" alt="">
         </card>
 
         <card title="Voukoder" url="https://www.voukoder.org" desc="PR、AE、Vegas等软件的编码导出插件"
               download_cdn="" download_original="https://www.voukoder.org/forum/thread/783-downloads-instructions/">
-          <img src="/src/assets/img/voukoder.png" alt="" class="rounded-xl">
+          <img src="@/assets/img/voukoder.png" alt="" class="rounded-xl">
         </card>
 
         <card title="ReShade_advancedfx" url="https://github.com/advancedfx/ReShade_advancedfx" desc="连接HLAE录制的ReShade插件"
               download_cdn="https://api.upup.cool/get/reshade-afx" download_original="https://github.com/advancedfx/ReShade_advancedfx/releases/latest">
-          <img src="/src/assets/img/reshade.png" alt="">
+          <img src="@/assets/img/reshade.png" alt="">
         </card>
 
         <card title="ReShade" url="https://reshade.me" desc="重塑你的游戏画面"
               download_cdn="" download_original="https://reshade.me">
-          <img src="/src/assets/img/reshade.png" alt="">
+          <img src="@/assets/img/reshade.png" alt="">
         </card>
 
         <card title="ShanaEncoder" url="https://shana.pe.kr/shanaencoder_summary" desc="方便好用的转码压制图形工具" :background="true"

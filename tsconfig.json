@@ -15,7 +15,7 @@
     "noStrictGenericChecks": false,
     "skipLibCheck": true, // 跳过 d.ts 类型检查
     "lib": ["esnext", "dom"],
-    "baseUrl": "../../Gitee/csgo-toolbox/frontend",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
       "@runtime": ["wailsjs/runtime/runtime"],
