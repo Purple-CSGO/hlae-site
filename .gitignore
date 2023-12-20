@@ -3,7 +3,8 @@ node_modules/
 dist/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/*.json
 .idea/
 .fleet/
 
