@@ -1,5 +1,5 @@
 # Vue 依赖和构建
-FROM node:18-alpine AS build
+FROM node:alpine AS build
 WORKDIR /app
 COPY package.json ./
 RUN npm install -g pnpm
