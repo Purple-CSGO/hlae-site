@@ -1,0 +1,15 @@
+<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M124 64C124 97.1371 97.1371 124 64 124C30.8629 124 4 97.1371 4 64C4 30.8629 30.8629 4 64 4C97.1371 4 124 30.8629 124 64Z"
+    stroke="white"
+    stroke-width="8"
+  />
+  <line x1="64" y1="124" x2="128" y2="124" stroke="white" stroke-width="8" />
+  <circle cx="63.9999" cy="64" r="3.84" fill="white" />
+  <circle cx="38" cy="49" r="12" fill="white" />
+  <circle cx="64" cy="32" r="12" fill="white" />
+  <circle cx="38" cy="79" r="12" fill="white" />
+  <circle cx="64" cy="96" r="12" fill="white" />
+  <circle cx="90" cy="79" r="12" fill="white" />
+  <circle cx="90" cy="49" r="12" fill="white" />
+</svg>

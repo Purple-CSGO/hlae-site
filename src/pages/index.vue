@@ -29,18 +29,18 @@
         <card title="官方Wiki"  url="https://github.com/advancedfx/advancedfx/wiki" desc="权威，但是英文 orz" :background="true">
           <i class="pt-3 pi pi-book" />
         </card>
+        <card title="新版文档" url="https://doc.hlae.site" desc="新版 advancedfx 文档，建设中" :background="true">
+          <i class="pt-3 pi pi-bookmark" />
+        </card>
+
         <card title="官方Discord" url="https://discord.gg/NGp8qhN" desc="和开发者近距离交流" :background="true">
           <i class="pt-3 pi pi-discord" />
         </card>
-
         <card title="付费CSGO集锦制作文档" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
           <i class="pt-3 pi pi-video" />
         </card>
         <card title="问题与建议提交" url="https://github.com/advancedfx/advancedfx/issues" desc="tnnd 为什么不更新" :background="true">
           <i class="pt-3 pi pi-question-circle" />
-        </card>
-        <card title="旧版中文站" url="https://old.hlae.site" desc="旧版论坛存档" :background="true">
-          <i class="pt-3 pi pi-bookmark" />
         </card>
 
         <card title="HUD生成器" url="https://hud.hlae.site/" desc="击杀信息和准星生成工具" :background="true">
@@ -73,9 +73,9 @@
           <img src="/src/assets/img/csgo-toolbox.png" alt="csgo-toolbox" class="rounded-xl">
         </card>
 
-        <card title="CSGO Demos Manager" url="https://csgo-demos-manager.com" desc="CSGO录像分析观看工具"
-              download_cdn="https://api.upup.cool/get/csdm" download_original="https://github.com/akiver/CSGO-Demos-Manager/releases/latest">
-          <img src="/src/assets/img/csgo-demos-manager.png" alt="">
+        <card title="CS Demo Manager" url="https://cs-demo-manager.com" desc="CS录像分析观看工具" :background="true"
+              download_cdn="https://api.upup.cool/get/csdm" download_original="https://github.com/akiver/CS-Demo-Manager/releases/latest">
+          <img src="/src/assets/img/csdm.svg" alt="" class="p-2">
         </card>
 
         <card title="HLAE Studio" url="https://github.com/One-Studio/HLAE-Studio" desc="HLAE环境配置更新工具"
@@ -85,6 +85,11 @@
 
         <card title="CFG预设" url="https://config.upup.cool" desc="适用于CSGO各场景的Config预设" :background="true"
               download_cdn="https://api.upup.cool/get/csgo-cfg" download_original="https://github.com/Purple-CSGO/CSGO-Config-Presets/releases/latest">
+          <i class="pt-3 pi pi-github"></i>
+        </card>
+
+        <card title="CFG预设 For CS2" url="https://config.upup.cool/v2" desc="适用于CS2各场景的Config预设" :background="true"
+              download_cdn="https://api.upup.cool/get/cs2-cfg" download_original="https://github.com/Purple-CSGO/CS2-Config-Presets/releases/latest">
           <i class="pt-3 pi pi-github"></i>
         </card>
 
