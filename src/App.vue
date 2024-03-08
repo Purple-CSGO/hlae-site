@@ -12,8 +12,12 @@
 
     <footer>
       <span>Presented by <a href="https://github.com/Purple-CSGO" class="author">Purple-CSGO</a> ©2023</span>
-      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=34012302000653" rel="noreferrer"
-        target="_blank" class="beian"><img src="@/assets/img/beian.png" alt="beian"/>皖公网安备34012302000653</a>
+      <div class="beian">
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=34012302000653" rel="noreferrer" class="beian hover:underline"
+          target="_blank"><img src="@/assets/img/beian.png" alt="beian"/>皖公网安备34012302000653</a>
+          |
+        <a href="http://beian.miit.gov.cn/" target="_blank" class="hover:underline">皖ICP备20002252号-2</a>
+      </div>
     </footer>
   </div>
 </template>
@@ -63,7 +67,7 @@ footer {
   }
 
   .beian {
-    @apply font-normal text-sm tracking-widest text-[#333336] hover:underline underline-offset-2 flex gap-2;
+    @apply font-normal text-sm tracking-widest text-[#333336] underline-offset-2 flex gap-2;
 
     img {
       @apply w-4;

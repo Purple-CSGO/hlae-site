@@ -68,14 +68,19 @@
           <img src="@/assets/img/ffmpeg.webp" alt="ffmpeg">
         </card>
 
-        <card title="CSGO工具箱" url="https://csgo-toolbox.upup.cool" desc="一个为CSGO游戏的各个方面带来便利的工具集合"
-              download_cdn="https://api.upup.cool/get/csgo-toolbox" download_original="https://github.com/One-Studio/CSGO-Toolbox/releases/latest">
-          <img src="@/assets/img/csgo-toolbox.png" alt="csgo-toolbox" class="rounded-xl">
+        <card title="CFG预设 For CS2" url="https://config.upup.cool/v2" desc="适用于CS2各场景的Config预设" :background="true"
+              download_cdn="https://api.upup.cool/get/cs2-cfg" download_original="https://github.com/Purple-CSGO/CS2-Config-Presets/releases/latest">
+          <i class="pt-3 pi pi-github"></i>
         </card>
 
         <card title="CS Demo Manager" url="https://cs-demo-manager.com" desc="CS录像分析观看工具" :background="true"
               download_cdn="https://api.upup.cool/get/csdm" download_original="https://github.com/akiver/CS-Demo-Manager/releases/latest">
           <img src="@/assets/img/csdm.svg" alt="" class="p-2">
+        </card>
+
+        <card title="CSGO工具箱" url="https://csgo-toolbox.upup.cool" desc="一个为CSGO游戏的各个方面带来便利的工具集合"
+              download_cdn="https://api.upup.cool/get/csgo-toolbox" download_original="https://github.com/One-Studio/CSGO-Toolbox/releases/latest">
+          <img src="@/assets/img/csgo-toolbox.png" alt="csgo-toolbox" class="rounded-xl">
         </card>
 
         <card title="HLAE Studio" url="https://github.com/One-Studio/HLAE-Studio" desc="HLAE环境配置更新工具"
@@ -85,11 +90,6 @@
 
         <card title="CFG预设" url="https://config.upup.cool" desc="适用于CSGO各场景的Config预设" :background="true"
               download_cdn="https://api.upup.cool/get/csgo-cfg" download_original="https://github.com/Purple-CSGO/CSGO-Config-Presets/releases/latest">
-          <i class="pt-3 pi pi-github"></i>
-        </card>
-
-        <card title="CFG预设 For CS2" url="https://config.upup.cool/v2" desc="适用于CS2各场景的Config预设" :background="true"
-              download_cdn="https://api.upup.cool/get/cs2-cfg" download_original="https://github.com/Purple-CSGO/CS2-Config-Presets/releases/latest">
           <i class="pt-3 pi pi-github"></i>
         </card>
 
