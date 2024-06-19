@@ -36,9 +36,9 @@
         <card title="官方Discord" url="https://discord.gg/NGp8qhN" desc="和开发者近距离交流" :background="true">
           <i class="pt-3 pi pi-discord" />
         </card>
-        <card title="付费CSGO集锦制作文档" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
+        <!-- <card title="CSGO集锦制作文档" url="https://forum.hlae.site/d/28-csgo" desc="适合新手入门的基础教学文档" :background="true">
           <i class="pt-3 pi pi-video" />
-        </card>
+        </card> -->
         <card title="问题与建议提交" url="https://github.com/advancedfx/advancedfx/issues" desc="tnnd 为什么不更新" :background="true">
           <i class="pt-3 pi pi-question-circle" />
         </card>
